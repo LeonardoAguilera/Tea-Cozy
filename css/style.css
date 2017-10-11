@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 12px;
 }
 
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
 header {
     position: fixed;
     display: flex;
@@ -49,4 +54,30 @@ nav a {
 #about div {
     background-color: black;
     width: 100%;
+}
+
+#highlights {
+    display: flex;
+    justify-content: center;
+    margin: 70px 40px 0px 40px;
+}
+
+#highlights .container {
+    width: 1000px;
+}
+
+.square img {
+    width: 300px;
+    height: 200px;
+}
+
+.square {
+    padding: 5px;
+    margin: 15px 15px 10px 15px;
+}
+
+.rows {
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
