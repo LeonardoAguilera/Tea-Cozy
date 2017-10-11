@@ -8,7 +8,7 @@ body, a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 12px;
+    margin: 10px;
 }
 
 p {
@@ -112,5 +112,23 @@ nav a {
 }
 
 #locations .rows {
-    margin-top: 3px;
+    margin-top: 5px;
+}
+
+#contact {
+    height: 200px;
+}
+
+#contact h2 {
+    padding-bottom: 25px;
+}
+
+#contact h5 {
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: left;
 }
